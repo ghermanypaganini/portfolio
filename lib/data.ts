@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import screentab from "@/public/Screen_tab.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import portfolio from "@/public/screenshot-portfolio.png";
 import n8n from "@/public/n8n.png";
 
 export const links = [
@@ -71,7 +71,7 @@ export const projectsData = [
     description:
       "Portfolio web page using modern dev frameworks. Code is available on GitHub.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Open Source"],
-    imageUrl: rmtdevImg,
+    imageUrl: portfolio,
   },
   {
     title: "automation",

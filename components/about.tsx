@@ -20,8 +20,8 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p>
         I'm Ghermany Paganini, Brazilian from the state of Santa Catarina. I'm
-        an enthusiast of science and technology, love to travel, a bit of a
-        history buff and a sports fan.{" "}
+        an enthusiast of science and technology, traveler, a dig history and a
+        sports fan.{" "}
       </p>
       <p>
         I graduated in Computer Engineering and have been working in the IT
@@ -30,7 +30,7 @@ export default function About() {
       </p>
       <p>
         {" "}
-        Currently, I'm studying web application development, cloud computing,
+        Currently, I'm studying web app dev, automation, cloud computing,
         security and micro-SaaS business.
       </p>
       <p>

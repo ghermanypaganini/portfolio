@@ -75,8 +75,15 @@ export const projectsData = [
   },
   {
     title: "automation",
-    description: "Automation tasks and workflows.",
-    tags: ["N8N", "Integrations", "Webhooks"],
+    description: "Automate your workflows and integrate systems.",
+    tags: [
+      "Worflows",
+      "Integrations",
+      "Webhooks",
+      "Automation",
+      "Tasks",
+      "n8n",
+    ],
     imageUrl: n8n,
   },
 ] as const;

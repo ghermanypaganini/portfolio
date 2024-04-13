@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import screentab from "@/public/Screen_tab.png";
+import screentab from "@/public/screenshot-tabnews.png";
 import portfolio from "@/public/screenshot-portfolio.png";
-import n8n from "@/public/n8n.png";
+import n8n from "@/public/workflow.png";
 
 export const links = [
   {
@@ -97,16 +97,15 @@ export const skillsData = [
   "Git",
   "Tailwind",
   "Prisma",
-  "Redux",
-  "GraphQL",
-  "Apollo",
   "PostgreSQL",
   "Python",
   "Django",
   "Framer Motion",
   "Linux",
-  "AWS",
+  "Hosting",
+  "N8N",
   "Wordpress",
+  "Ghost",
   "Scrum",
   "PMS",
 ] as const;

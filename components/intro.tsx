@@ -73,7 +73,7 @@ export default function Intro() {
         <span className="underline"></span>
       </motion.h1>
       <motion.h1
-        className="mb-8 mt-4 px-4 text-3xl sm:text-2xl !leading-[1.5] scroll-mt-28" //className="mb-8 mt-4 px-4 text-4xl !leading-[1.5] sm:text-2xl"
+        className="mb-8 mt-4 px-4 text-1xl sm:text-2xl !leading-[1.5] scroll-mt-28" //className="mb-8 mt-4 px-4 text-4xl !leading-[1.5] sm:text-2xl"
         initial={{ opacity: 0, y: 100, scale: 1 }}
         animate={{ opacity: 1, y: 0 }}
       >

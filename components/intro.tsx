@@ -157,9 +157,7 @@ export default function Intro() {
         className="mb-5 mt-4 px-4 font-medium sm:text-1.5xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
-      >
-        <span className="font-bold">📍 🇧🇷 </span>{" "}
-      </motion.h1>
+      ></motion.h1>
     </section>
   );
 }

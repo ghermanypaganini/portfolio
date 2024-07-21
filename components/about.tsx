@@ -20,8 +20,8 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p>
         I'm Ghermany Paganini, Brazilian from the state of Santa Catarina. I'm
-        an enthusiast of science and technology, traveler, a dig history and a
-        sports fan.{" "}
+        an enthusiast of science and tech, sports fan, a curious about history,
+        stories and cultures.{" "}
       </p>
       <p>
         I graduated in Computer Engineering and have been working in the IT
@@ -30,18 +30,21 @@ export default function About() {
       </p>
       <p>
         {" "}
-        Currently, I'm studying web app dev, automation, cloud computing,
+        Currently, I'm studying web development, automation, cloud computing,
         security and micro-SaaS business.
       </p>
       <p>
         <span className="font-medium">
           {" "}
-          Nowadays, I'm a backpacker traveling the world while working,
-          volunteering, learning new skills, getting to know cultures, places
-          and people!
+          Nowadays, I'm a backpacker traveling the world doing exchanges,
+          learning new skills, sharing experiences, getting to know cultures,
+          places and people! Discovering, every day, new ways of 'trying' to
+          interpret the world.
         </span>
         <span className="italic"></span>
       </p>
+      <p></p>
+      <span className="font-bold"> 🇧🇷 🇵🇹 🇲🇦 🇪🇸 🇫🇷 </span>{" "}
     </motion.section>
   );
 }

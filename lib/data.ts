@@ -1,7 +1,7 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+import { FaUserClock } from "react-icons/fa"; //react-icons/cg
+import { FaHotel } from "react-icons/fa";
+import { LuServer } from "react-icons/lu";
 import screentab from "@/public/screenshot-tabnews.png";
 import portfolio from "@/public/screenshot-portfolio.png";
 import n8n from "@/public/workflow.png";
@@ -24,8 +24,8 @@ export const links = [
     hash: "#skills",
   },
   {
-    name: "Experience",
-    hash: "#experience",
+    name: "Services",
+    hash: "#services",
   },
   {
     name: "Contact",
@@ -35,26 +35,23 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "freelancer and backpacker",
-    location: "based in world",
+    title: "IT Services and Consultant",
+    location: "Websites, servers, troubleshooting, systems",
     description: "",
-    icon: React.createElement(LuGraduationCap),
-    date: "2024 - present",
+    icon: React.createElement(LuServer),
   },
   {
-    title: "Jurerê In. Habitasul",
-    location: "Remote | Floripa, SC",
-    description: "systems support",
-    icon: React.createElement(CgWorkAlt),
-    date: "2021 - 2024",
+    title: "Automation tasks",
+    location: "Remote",
+    description: "Automate your business or personal tasks",
+    icon: React.createElement(FaUserClock),
   },
   {
-    title: "Irani SA",
-    location: "Joaçaba, SC",
+    title: "Hospitality",
+    location: "Arroio Trinta, SC",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2017 - 2021",
+      "Hotel locate in Arroio Trinta, Santa Catarina, Brasil. Visit owr website on www.hotelsanghermann.com",
+    icon: React.createElement(FaHotel),
   },
 ] as const;
 

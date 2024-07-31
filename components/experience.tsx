@@ -12,7 +12,7 @@ import { useSectionInView } from "@/lib/hooks";
 import { useTheme } from "@/context/theme-context";
 
 export default function Experience() {
-  const { ref } = useSectionInView("Experience");
+  const { ref } = useSectionInView("Services");
   const { theme } = useTheme();
   const [showPage, setShowPage] = useState(false);
 
@@ -23,8 +23,8 @@ export default function Experience() {
 
   return (
     <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
-      <SectionHeading>Timeline </SectionHeading>
-      <VerticalTimeline lineColor="">
+      <SectionHeading>Services </SectionHeading>
+      <VerticalTimeline lineColor="transparent">
         {experiencesData.map((item, index) => (
           <React.Fragment key={index}>
             <VerticalTimelineElement
@@ -42,7 +42,6 @@ export default function Experience() {
                     ? "0.4rem solid #9ca3af"
                     : "0.4rem solid rgba(255, 255, 255, 0.5)",
               }}
-              date={item.date}
               icon={item.icon}
               iconStyle={{
                 background:
@@ -58,7 +57,7 @@ export default function Experience() {
             </VerticalTimelineElement>
           </React.Fragment>
         ))}
-      </VerticalTimeline>
+      </VerticalTimeline>{" "}
     </section>
   );
 }

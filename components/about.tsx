@@ -44,7 +44,7 @@ export default function About() {
         <span className="italic"></span>
       </p>
       <p></p>
-      <span className="font-bold"> 🇧🇷 🇵🇹 🇲🇦 🇪🇸 🇫🇷 </span>{" "}
+      <span className="font-bold"> 🇧🇷 🇵🇹 🇲🇦 🇪🇸 🇫🇷 🇬🇧</span>{" "}
     </motion.section>
   );
 }

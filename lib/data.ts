@@ -57,22 +57,21 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "clone-tabnews",
-    description:
-      "The implementation of a forum project, aimed at development studies, inspired by Tabnews.com.br.",
-    tags: ["Javascript", "PostgreSQL", "Tailwind", "Vercel hosting"],
+    title: "AI Agents",
+    description: "Transforming business with autonomous agents.",
+    tags: ["Artifical Intelligence"],
     imageUrl: screentab,
   },
   {
-    title: "this portfolio",
+    title: "This Portfolio - Open Source",
     description:
       "Portfolio web page using modern dev frameworks. Code is available on GitHub.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Open Source"],
     imageUrl: portfolio,
   },
   {
-    title: "automation",
-    description: "Automate your workflows and integrate systems.",
+    title: "Automation",
+    description: "Automate workflows and integrate systems.",
     tags: [
       "Worflows",
       "Integrations",
@@ -86,23 +85,26 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
+  "Automation",
+  "AI Agents",
+  "N8N",
   "JavaScript",
-  "TypeScript",
   "React",
   "Next.js",
   "Node.js",
   "Git",
-  "Tailwind",
-  "Prisma",
   "PostgreSQL",
+  "MongoDB",
+  "Supabase",
   "Python",
-  "Django",
-  "Framer Motion",
   "Linux",
-  "Hosting",
-  "N8N",
-  "Wordpress",
-  "Ghost",
+  "AWS",
+  "Google Cloud",
+  "Google Workspace",
+  "Vercel",
+  "Railway",
+  "DigitalOcean",
   "Scrum",
   "PMS",
+  "CRM",
 ] as const;

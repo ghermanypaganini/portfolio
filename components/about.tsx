@@ -25,22 +25,17 @@ export default function About() {
       </p>
       <p>
         I graduated in Computer Engineering and have been working in the IT
-        field for 7 years. Additionally, I have extensive experience in
-        hospitality.{" "}
+        field and hospitality. Currently, I'm studying web development,
+        automation, cloud computing, AI and micro-SaaS business.{" "}
       </p>
       <p>
         {" "}
-        Currently, I'm studying web development, automation, cloud computing,
-        security and micro-SaaS business.
+        Whenever I can, I travel with a backpacker's spirit — chasing new
+        horizons, connecting with souls from around the world, and collecting
+        stories along the way.
       </p>
       <p>
-        <span className="font-medium">
-          {" "}
-          Nowadays, I'm a backpacker traveling the world doing exchanges,
-          learning new skills, sharing experiences, getting to know cultures,
-          places and people! Discovering, every day, new ways of 'trying' to
-          interpret the world.
-        </span>
+        <span className="font-medium"> </span>
         <span className="italic"></span>
       </p>
       <p></p>

@@ -57,9 +57,9 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "AI Agents",
-    description: "Transforming business with autonomous agents.",
-    tags: ["Artifical Intelligence"],
+    title: "Anfitrion Hub",
+    description: "Management system for vacation rental hosts.",
+    tags: ["Anfitrion", "Business", "Hospitality", "System"],
     imageUrl: screentab,
   },
   {
@@ -70,7 +70,7 @@ export const projectsData = [
     imageUrl: portfolio,
   },
   {
-    title: "Automation",
+    title: "Digital Automation",
     description: "Automate workflows and integrate systems.",
     tags: [
       "Worflows",
@@ -89,12 +89,10 @@ export const skillsData = [
   "AI Agents",
   "N8N",
   "JavaScript",
-  "React",
   "Next.js",
   "Node.js",
   "Git",
   "PostgreSQL",
-  "MongoDB",
   "Supabase",
   "Python",
   "Linux",

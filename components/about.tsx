@@ -24,14 +24,15 @@ export default function About() {
         stories and cultures.{" "}
       </p>
       <p>
-        I graduated in Computer Engineering and have been working in the IT
-        field and hospitality. Currently, I'm studying web development,
-        automation, cloud computing, AI and micro-SaaS business.{" "}
+        I graduated in Computer Engineering, a postgraduate degree in AI and
+        Digital Automation and have been working in the IT field and
+        hospitality. Currently, I'm studying automation, cloud computing, AI and
+        micro-SaaS business.{" "}
       </p>
       <p>
         {" "}
-        Whenever I can, I travel with a backpacker's spirit — chasing new
-        horizons, connecting with souls from around the world, and collecting
+        Whenever I can, I travel with a backpacker's spirit, chasing new
+        horizons, connecting with souls from around the world and collecting
         stories along the way.
       </p>
       <p>

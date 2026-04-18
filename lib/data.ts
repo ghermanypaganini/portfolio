@@ -2,9 +2,10 @@ import React from "react";
 import { FaUserClock } from "react-icons/fa"; //react-icons/cg
 import { FaHotel } from "react-icons/fa";
 import { LuServer } from "react-icons/lu";
-import screentab from "@/public/screenshot-tabnews.png";
+import anfitrion from "@/public/anfitrion.png";
 import portfolio from "@/public/screenshot-portfolio.png";
-import n8n from "@/public/workflow.png";
+import croworx from "@/public/croworx.png";
+import hotel from "@/public/hotel.png";
 
 export const links = [
   {
@@ -60,7 +61,22 @@ export const projectsData = [
     title: "Anfitrion Hub",
     description: "Management system for vacation rental hosts.",
     tags: ["Anfitrion", "Business", "Hospitality", "System"],
-    imageUrl: screentab,
+    imageUrl: anfitrion,
+    url: "https://anfitrionhub.com.br",
+  },
+  {
+    title: "Croworx",
+    description: "AI Agents for automate workflows and integrate systems.",
+    tags: ["AI", "Integrations", "Webhooks", "Automation"],
+    imageUrl: croworx,
+    url: "https://croworx.com.br",
+  },
+  {
+    title: "Hotel San Ghermann",
+    description: "Hotel locate in Arroio Trinta, Santa Catarina, Brasil",
+    tags: ["Hospitality", "Hotel"],
+    imageUrl: hotel,
+    url: "https://www.hotelsanghermann.com",
   },
   {
     title: "This Portfolio - Open Source",
@@ -68,19 +84,7 @@ export const projectsData = [
       "Portfolio web page using modern dev frameworks. Code is available on GitHub.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Open Source"],
     imageUrl: portfolio,
-  },
-  {
-    title: "Digital Automation",
-    description: "Automate workflows and integrate systems.",
-    tags: [
-      "Worflows",
-      "Integrations",
-      "Webhooks",
-      "Automation",
-      "Tasks",
-      "n8n",
-    ],
-    imageUrl: n8n,
+    url: "https://github.com/ghermanypaganini/portfolio",
   },
 ] as const;
 

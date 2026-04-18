@@ -25,15 +25,13 @@ export default function About() {
       </p>
       <p>
         I graduated in Computer Engineering, a postgraduate degree in AI and
-        Digital Automation and have been working in the IT field and
-        hospitality. Currently, I'm studying automation, cloud computing, AI and
-        micro-SaaS business.{" "}
+        Digital Automation and I have been studying and working on software and
+        product development projects, as well as in the hospitality.{" "}
       </p>
       <p>
         {" "}
-        Whenever I can, I travel with a backpacker's spirit, chasing new
-        horizons, connecting with souls from around the world and collecting
-        stories along the way.
+        Whenever I can, I travel chasing new horizons, connecting with souls
+        from around the world and collecting stories along the way.
       </p>
       <p>
         <span className="font-medium"> </span>

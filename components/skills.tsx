@@ -5,6 +5,7 @@ import SectionHeading from "./section-heading";
 import { skillsData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
+import { useState } from "react";
 
 const fadeInAnimationVariants = {
   initial: {
@@ -22,6 +23,12 @@ const fadeInAnimationVariants = {
 
 export default function Skills() {
   const { ref } = useSectionInView("Skills");
+  const [showPage, setShowPage] = useState(false);
+
+  // Verifica se a página deve ser exibida
+  if (!showPage) {
+    return null; // Retorna null para ocultar a página
+  }
 
   return (
     <section
@@ -29,7 +36,7 @@ export default function Skills() {
       ref={ref}
       className="mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40"
     >
-      <SectionHeading>Learning and Skills</SectionHeading>
+      <SectionHeading>Skills</SectionHeading>
       <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
         {skillsData.map((skill, index) => (
           <motion.li

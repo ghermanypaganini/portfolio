@@ -78,7 +78,7 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         {" "}
-        <span>This is my sleek "CV", or almost that. </span>
+        <span>This is my sleek CV, or almost that. </span>
         {/* I can develop your site or web application, help your team design and support IT architecture or find the ideal tech solution for your company. */}
       </motion.h1>
       <motion.div

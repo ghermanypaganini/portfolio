@@ -1,10 +1,11 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-import screentab from "@/public/Screen_tab.png";
+import { FaUserClock } from "react-icons/fa"; //react-icons/cg
+import { FaHotel } from "react-icons/fa";
+import { LuServer } from "react-icons/lu";
+import anfitrion from "@/public/anfitrion.png";
 import portfolio from "@/public/screenshot-portfolio.png";
-import n8n from "@/public/n8n.png";
+import croworx from "@/public/croworx.png";
+import hotel from "@/public/hotel.png";
 
 export const links = [
   {
@@ -24,8 +25,8 @@ export const links = [
     hash: "#skills",
   },
   {
-    name: "Experience",
-    hash: "#experience",
+    name: "Services",
+    hash: "#services",
   },
   {
     name: "Contact",
@@ -35,64 +36,67 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "freelancer and backpacker",
-    location: "based in world",
+    title: "IT Services and Consultant",
+    location: "Websites, servers, troubleshooting, systems",
     description: "",
-    icon: React.createElement(LuGraduationCap),
-    date: "2024 - present",
+    icon: React.createElement(LuServer),
   },
   {
-    title: "Jurerê In. Habitasul",
-    location: "Remote | Floripa, SC",
-    description: "systems support",
-    icon: React.createElement(CgWorkAlt),
-    date: "2021 - 2024",
+    title: "Automation tasks",
+    location: "Remote",
+    description: "Automate your business or personal tasks",
+    icon: React.createElement(FaUserClock),
   },
   {
-    title: "Irani SA",
-    location: "Joaçaba, SC",
+    title: "Hospitality",
+    location: "Arroio Trinta, SC",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2017 - 2021",
+      "Hotel locate in Arroio Trinta, Santa Catarina, Brasil. Visit owr website on www.hotelsanghermann.com",
+    icon: React.createElement(FaHotel),
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "clone-tabnews",
-    description:
-      "The implementation of a forum project, aimed at development studies, inspired by Tabnews.com.br.",
-    tags: ["Javascript", "PostgreSQL", "Tailwind", "Vercel hosting"],
-    imageUrl: screentab,
+    title: "Anfitrion Hub",
+    description: "Management system for vacation rental hosts.",
+    tags: ["Anfitrion", "Business", "Hospitality", "System"],
+    imageUrl: anfitrion,
+    url: "https://anfitrionhub.com.br",
   },
   {
-    title: "this portfolio",
+    title: "Croworx",
+    description: "AI Agents for automate workflows and integrate systems.",
+    tags: ["AI", "Integrations", "Webhooks", "Automation"],
+    imageUrl: croworx,
+    url: "https://croworx.com.br",
+  },
+  {
+    title: "Hotel San Ghermann",
+    description: "Hotel locate in Arroio Trinta, Santa Catarina, Brasil",
+    tags: ["Hospitality", "Hotel"],
+    imageUrl: hotel,
+    url: "https://www.hotelsanghermann.com",
+  },
+  {
+    title: "This Portfolio - Open Source",
     description:
       "Portfolio web page using modern dev frameworks. Code is available on GitHub.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Open Source"],
     imageUrl: portfolio,
-  },
-  {
-    title: "automation",
-    description: "Automation tasks and workflows.",
-    tags: ["N8N", "Integrations", "Webhooks"],
-    imageUrl: n8n,
+    url: "https://github.com/ghermanypaganini/portfolio",
   },
 ] as const;
 
 export const skillsData = [
   "Automation",
-  "IA Agents",
+  "AI Agents",
   "N8N",
-  "IA",
   "JavaScript",
-  "React",
   "Next.js",
   "Node.js",
   "Git",
   "PostgreSQL",
-  "MongoDB",
   "Supabase",
   "Python",
   "Linux",

@@ -20,28 +20,25 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p>
         I'm Ghermany Paganini, Brazilian from the state of Santa Catarina. I'm
-        an enthusiast of science and technology, love to travel, a bit of a
-        history buff and a sports fan.{" "}
+        an enthusiast of science and tech, sports fan, a curious about history,
+        stories and cultures.{" "}
       </p>
       <p>
-        I graduated in Computer Engineering and have been working in the IT
-        field for 8 years. Additionally, I have extensive experience in
-        hospitality.{" "}
+        I graduated in Computer Engineering, a postgraduate degree in AI and
+        Digital Automation and I have been studying and working on software and
+        product development projects, as well as in the hospitality.{" "}
       </p>
       <p>
         {" "}
-        Currently, I'm studying web application development, cloud computing,
-        automation, AI and micro-SaaS business.
+        Whenever I can, I travel chasing new horizons, connecting with souls
+        from around the world and collecting stories along the way.
       </p>
       <p>
-        <span className="font-medium">
-          {" "}
-          Whenever I can, I travel with a backpacker's spirit — chasing new
-          horizons, connecting with souls from around the world, and collecting
-          stories along the way.
-        </span>
+        <span className="font-medium"> </span>
         <span className="italic"></span>
       </p>
+      <p></p>
+      <span className="font-bold"> 🇧🇷 🇵🇹 🇲🇦 🇪🇸 🇫🇷 🇬🇧</span>{" "}
     </motion.section>
   );
 }

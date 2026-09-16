@@ -11,6 +11,7 @@ export default function Footer() {
         React & Next.js, TypeScript, Tailwind CSS, Framer Motion and Vercel
         hosting.
       </p>
+      <p className="text-xs"> For the universe law | 42</p>
     </footer>
   );
 }

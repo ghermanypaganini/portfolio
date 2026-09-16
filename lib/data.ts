@@ -65,15 +65,16 @@ export const projectsData = [
     url: "https://anfitrionhub.com.br",
   },
   {
-    title: "Croworx",
-    description: "AI Agents for automate workflows and integrate systems.",
-    tags: ["AI", "Integrations", "Webhooks", "Automation"],
+    title: "Atractor Labs",
+    description: "Lab for develop AI Projects and Systems.",
+    tags: ["AI", "Integrations", "CRM", "Automation"],
     imageUrl: croworx,
-    url: "https://croworx.com.br",
+    url: "https://atractor.com.br",
   },
   {
     title: "Hotel San Ghermann",
-    description: "Hotel locate in Arroio Trinta, Santa Catarina, Brasil",
+    description:
+      "Back Office of Hotel locate in Arroio Trinta, Santa Catarina, Brasil",
     tags: ["Hospitality", "Hotel"],
     imageUrl: hotel,
     url: "https://www.hotelsanghermann.com",

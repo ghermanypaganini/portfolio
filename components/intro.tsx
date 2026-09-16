@@ -68,19 +68,19 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hey 🤙, Welcome! I'm Ghermany.</span>{" "}
+        <span className="font-bold">Hey 👍, Welcome! I'm Ghermany.</span>{" "}
         <span className="font-bold"></span>
         <span className="underline"></span>
       </motion.h1>
-      <motion.h1
-        className="mb-8 mt-4 px-4 text-1xl sm:text-2xl !leading-[1.5] scroll-mt-28" //className="mb-8 mt-4 px-4 text-4xl !leading-[1.5] sm:text-2xl"
+      <motion.p
+        className="mb-8 mt-4 px-4 text-sm sm:text-base !leading-[1.5] text-gray-500 dark:text-white/50 scroll-mt-28"
         initial={{ opacity: 0, y: 100, scale: 1 }}
         animate={{ opacity: 1, y: 0 }}
       >
         {" "}
-        <span>This is my sleek CV, or almost that. </span>
+        <span>This is my sleek CV, or close enough. </span>
         {/* I can develop your site or web application, help your team design and support IT architecture or find the ideal tech solution for your company. */}
-      </motion.h1>
+      </motion.p>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium" //
         initial={{ opacity: 0, y: 100 }}
@@ -103,7 +103,8 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="http://ghermanypaganini.medium.com/"
+          href="https://substack.com/@ghermanypaganini"
+          target="_blank"
         >
           Blog{" "}
           <HiBookOpen className="opacity-60 group-hover:translate-y-1 transition" />

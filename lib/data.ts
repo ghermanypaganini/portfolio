@@ -51,7 +51,7 @@ export const experiencesData = [
     title: "Hospitality",
     location: "Arroio Trinta, SC",
     description:
-      "Hotel locate in Arroio Trinta, Santa Catarina, Brasil. Visit owr website on www.hotelsanghermann.com",
+      "Hotel located in Arroio Trinta, Santa Catarina, Brazil. Visit our website at www.hotelsanghermann.com",
     icon: React.createElement(FaHotel),
   },
 ] as const;
@@ -66,7 +66,7 @@ export const projectsData = [
   },
   {
     title: "Atractor Labs",
-    description: "Lab for develop AI Projects and Systems.",
+    description: "Lab for developing AI projects and systems.",
     tags: ["AI", "Integrations", "CRM", "Automation"],
     imageUrl: croworx,
     url: "https://atractor.com.br",
@@ -74,7 +74,7 @@ export const projectsData = [
   {
     title: "Hotel San Ghermann",
     description:
-      "Back Office of Hotel locate in Arroio Trinta, Santa Catarina, Brasil",
+      "Back office for a hotel located in Arroio Trinta, Santa Catarina, Brazil.",
     tags: ["Hospitality", "Hotel"],
     imageUrl: hotel,
     url: "https://www.hotelsanghermann.com",

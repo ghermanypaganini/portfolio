@@ -1,0 +1,14 @@
+/* TEAM */
+Developer: Ghermany Paganini
+Contact: ghermanypaganini@atractor.com.br
+LinkedIn: https://www.linkedin.com/in/ghermanypaganini/
+GitHub: https://github.com/ghermanypaganini
+Location: Santa Catarina, Brazil
+
+/* THANKS */
+To whoever reads this file: let's talk.
+
+/* SITE */
+Last update: 2026
+Standards: HTML5, CSS3
+Components: Next.js, React, TypeScript, Tailwind CSS, Framer Motion
